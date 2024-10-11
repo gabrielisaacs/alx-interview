@@ -33,4 +33,3 @@ def canUnlockAll(boxes):
 
     # If all boxes have been opened, return True
     return len(opened_boxes) == len(boxes)
-
