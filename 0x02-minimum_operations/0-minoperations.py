@@ -1,15 +1,17 @@
 #!/usr/bin/python3
 
+"""
+    Function to determines the number of minmum operations given n characters
+"""
+
 
 def minOperations(n):
     """
-    Calculate the fewest number of operations needed to result
+    Calculate the minimum number of operations needed to result
     in exactly n 'H' characters in a file.
-
-    Args:
+    args:
         n (int): The number of 'H' characters to achieve.
-
-    Returns:
+    returns:
         int: The minimum number of operations needed to achieve n 'H'.
              Returns 0 if n is impossible to achieve.
     """
